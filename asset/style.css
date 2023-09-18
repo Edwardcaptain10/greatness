@@ -1,0 +1,284 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600;700;800&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100;1,300;1,500&display=swap');
+
+/* 
+ font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* position: fixed; */
+    background-color: white;
+    width: 100%;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px 0;
+    margin: auto;
+}
+
+
+
+    header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 2px solid black;
+    padding: 0 15px 0 0;
+}
+
+
+header ul li{
+    display: flex;
+    list-style: none;
+    margin: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #111111;
+}
+
+.road{
+    display: flex;
+    
+}
+
+.road h4{
+    font-size: 20px;
+}
+
+.hero-section{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: fit-content;
+}
+
+.hero-left{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.hero-left h1{
+    font-size: 56px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 30px 60px;
+    border-radius: 15px;
+    background-color: orangered;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+/* span{
+    color: ;
+} */
+
+.hero-right{
+    width: 50%;
+    height: 90vh;
+    position: relative;
+    background-image: url(./images/Header\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.quote{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    /* border: 1px solid red; */
+    background-color:#E2E6E9;
+    ;
+}
+
+
+.quote-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.quote-left{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 583px;
+    height: 638px;
+    flex-direction: column;
+    
+}
+
+.quote-left h2{
+    font-size: 58px;
+    width: 583px;
+    height: 152px;
+    margin-bottom: 20px;
+    line-height: 76px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+.icon{
+    
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 20px;
+    
+}
+
+.image{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    width:47px ;
+    height: 47px;
+}
+
+.flex {
+   width: 385px;
+   height: 105px;
+
+}
+
+.flex h5{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+    line-height: 36px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.flex p{
+    width: 322px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 10px;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.quote-right{
+    width: 625px;
+    height: 562px;
+}
+
+.quote-right-text{
+    width: 587px;
+    height: 134px;
+    margin-bottom: 20px;
+}
+
+.quote-right-text h3{
+    font-size: 48px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    line-height: 67.2px;
+}
+
+.quote-right input{
+    width: 624px;
+    height: 72px;
+    outline: none;
+    padding-left: 30px;
+}
+
+.quote-right ::placeholder{
+    width: 163px;
+    height: 26.18px;
+    margin-left: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 18px;
+
+}
+
+.quote-right button{
+    width: 208px;
+    border-radius: 12px;
+    height: 64px;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    padding: 16px 40px 16px 40px;
+}  
+
+.process-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+
+}
+
+.process-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1206px;
+    height: 527px;
+    border: 1px solid red;
+
+}
+
+
+.process-left{
+    width: 524px;
+    height: 396px;
+    border: 1px solid red;
+}
+.process-left h2{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;
+    border: 1px solid red;
+}
